@@ -1291,6 +1291,13 @@ dataSet[dataSetVersion].characterData = [
       loli: true
     }
   },
+  {
+    name: "Rostam",
+    img: "SlQK32I.png",
+    opts: {
+      series: [ "wwx" ],
+    }
+  },
 
 
 
