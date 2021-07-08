@@ -1178,7 +1178,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tsuruhime",
-    img: "IENBwg5.png",
+    img: "7TZ4QYw.png",
     opts: {
       series: [ "wwx" ],
     }
@@ -1296,6 +1296,13 @@ dataSet[dataSetVersion].characterData = [
     img: "SlQK32I.png",
     opts: {
       series: [ "wwx" ],
+    }
+  },
+  {
+    name: "Napoleon",
+    img: "lSWdecv.png",
+    opts: {
+      series: [ "wc","gd","wwx" ],
     }
   },
 

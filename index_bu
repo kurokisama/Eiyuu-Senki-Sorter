@@ -1,8 +1,8 @@
 <html>
 
 <head>
-  <link rel="shortcut icon" href="src/assets/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="src/assets/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="src/assets/yinyang.ico" type="image/x-icon">
+  <link rel="icon" href="src/assets/yinyang.ico" type="image/x-icon">
   <meta charset="utf-8">
   <meta name="og:site_name" content="Eiyuu Senki Character Sorting">
   <meta name="og:description" content="A simple website for sorting Eiyuu Senki characters in a formatted list.">
@@ -40,7 +40,7 @@
 
         <div class="loading button"><div></div><span>Loading...</span></div>
 
-        <div class="sorting tie button" style="pointer-events: none; background:gray;">NO Tie</div>
+        <div class="sorting tie button">Tie</div>
         <div class="sorting undo button">Undo</div>
         <div class="sorting save button">Save Progress</div>
 
@@ -86,13 +86,3 @@
 </body>
 
 </html>
-<script>
-window.addEventListener('keydown', function (event) {
-    if (event.keyCode === 75) {
-
-        // prevent default behaviour
-       event.preventDefault();
-        return false;
-    }
-});
-</script>
